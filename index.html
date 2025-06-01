@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Billal | Professional Portfolio</title>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- AOS Animation Library -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="loader"></div>
+  </div>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="container">
+    <!-- Logo -->
+    <a href="#" class="navbar-brand"><span>𝕭</span>𝖎𝖑𝖑𝖆𝖑</a>
+
+    <!-- Navigation Menu -->
+    <div class="navbar-menu" id="navbar-menu">
+      <!-- Close Button (only visible on mobile) -->
+      <button class="navbar-close" id="navbar-close">
+        <i class="fas fa-times"></i>
+      </button>
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Career</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Mobile Menu Toggle Button at the end -->
+    <button class="navbar-toggler" id="navbar-toggler">
+      <i class="fas fa-bars"></i>
+    </button>
+  </div>
+</nav>
+
+
+  <!-- Hero Section -->
+  <section id="home" class="hero" id="mar">
+    <div class="container">
+      <div class="hero-content">
+        <span class="hero-subtitle">Welcome to my portfolio</span>
+        <h1 class="hero-title">Hi, I'm <span class="text-gradient">𝓑𝓲𝓵𝓵𝓪𝓵</span></h1>
+        <div class="typewriter">
+          <span id="typewriter-text" class="typewriter-text"></span>
+          <span class="typewriter-cursor"></span>
+        </div>
+        <p class="hero-text">A passionate developer with expertise in various technologies. I enjoy building solutions that solve real-world problems and create meaningful experiences.</p>
+        <div class="hero-cta">
+          <!--<a href="#projects" class="btn btn-primary">View My Work</a>-->
+          <a href="Billal_CV.pdf" class="btn btn-primary" download> <i class="fas fa-download me-2"></i> Download My Cv</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+
+    </div>
+ <!--   <div class="scroll-down">
+      <span>Scroll Down</span>
+      <div class="scroll-down-mouse"></div>
+    </div>-->
+    <div class="container">
+        <div>
+          <div class="about-img-container">
+            <div class="about-img-border"></div>
+            <img src="homesvg.png" alt="Billal Coding Illustration" class="about-img">
+            <div class="about-img-shape"></div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about section">
+    <div class="container">
+      <div class="section-title">
+        <h2>About <span class="text-primary">Me</span></h2>
+        <p>Get to know me better</p>
+      </div>
+      <div class="about-content">
+        <div class="about-image" data-aos="fade-right">
+          <div class="about-img-container">
+            <div class="about-img-border"></div>
+            <img src="billal.jpg" alt="Billal's Picture" class="about-img">
+            <div class="about-img-shape"></div>
+          </div>
+        </div>
+        <div class="about-text" data-aos="fade-left">
+          <h3>Who am I?</h3>
+          <p>Hello! I'm Billal, a passionate developer with a strong foundation in various technologies. I specialize in creating innovative solutions that address real-world challenges.</p>
+          <p>With a background BSC in software engineering and a continuous learning mindset, I've developed expertise across multiple domains including web development, mobile applications, and blockchain technology.</p>
+          <p>My approach combines technical excellence with creative problem-solving to deliver high-quality, user-centered products that make a difference.</p>
+          <div class="about-info">
+            <div class="about-info-item">
+              <h4><i class="fas fa-code"></i> Technical Skills</h4>
+              <ul>
+                <li>Java</li>
+                <li>Laravel & PHP</li>
+                <li>Python & Django</li>
+                <li>Solidity & Blockchain</li>
+                
+                <li>c++</li>
+                <li>JavaScript</li>
+                <li>SQL & Database Design</li> 
+              </ul>
+            </div>
+            <div class="about-info-item">
+              <h4><i class="fas fa-briefcase"></i> Tools</h4>
+              <ul>
+                <li>Visual studio code</li>
+                <li>Intellij idea</li>
+                <li>Jupyter notebook</li>
+                <li>Pycharm </li>
+                <li>Xampp </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills section">
+    <div class="container">
+      <div class="section-title">
+        <h2>My <span class="text-primary">Skills</span></h2>
+        <p>What I bring to the table</p>
+      </div>
+      <div class="skills-container">
+        <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="skill-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3 class="skill-title">Frontend Development</h3>
+          <div class="skill-progress">
+            <div class="skill-progress-item">
+              <div class="skill-progress-info">
+                <span>JavaScript</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="90%"></div>
+              </div>
+            </div>
+            
+            <div class="skill-progress-item">
+              <div class="skill-progress-info">
+                <span>HTML</span>
+                <span>95%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="95%"></div>
+              </div>
+            </div>
+
+             <div class="skill-progress-item">
+              <div class="skill-progress-info">
+                <span>CSS</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="95%"></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="skill-icon">
+            <i class="fas fa-server"></i>
+          </div>
+          <h3 class="skill-title">Backend Development</h3>
+          <div class="skill-progress">
+            <div class="skill-progress-item">
+              <div class="skill-progress-info">
+                <span>PHP</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="85%"></div>
+              </div>
+            </div>
+            <div class="skill-progress-item">
+              <div class="skill-progress-info">
+                <span>Python/Django</span>
+                <span>80%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="80%"></div>
+              </div>
+            </div>
+            <div class="skill-progress-item">
+              <div class="skill-progress-info">
+                <span>Laravel</span>
+                <span>75%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="75%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="skill-icon">
+            <i class="fas fa-database"></i>
+          </div>
+          <h3 class="skill-title">Database & DevOps</h3>
+          <div class="skill-progress">
+            <div class="skill-progress-item">
+              <div class="skill-progress-info">
+                <span>SQL</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="90%"></div>
+              </div>
+            </div>
+            <div class="skill-progress-item">
+              <div class="skill-progress-info">
+                <span>Git/GitHub</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="85%"></div>
+              </div>
+            </div>
+            <div class="skill-progress-item">
+              <div class="skill-progress-info">
+                <span>MongoDB</span>
+                <span>60%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="70%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="skill-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="skill-icon">
+            <i class="fas fa-cubes"></i>
+          </div>
+          <h3 class="skill-title">Blockchain Development</h3>
+          <div class="skill-progress">
+            <div class="skill-progress-item">
+              <div class="skill-progress-info">
+                <span>Solidity</span>
+                <span>70%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="80%"></div>
+              </div>
+            </div>
+            <div class="skill-progress-item">
+              <div class="skill-progress-info">
+                <span>Smart Contracts</span>
+                <span>60%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="75%"></div>
+              </div>
+            </div>
+            <div class="skill-progress-item">
+              <div class="skill-progress-info">
+                <span>Web3.js</span>
+                <span>55%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="70%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects section">
+    <div class="container">
+      <div class="section-title">
+        <h2>My <span class="text-primary">Projects</span></h2>
+        <p>Some of my recent work</p>
+      </div>
+      <div class="projects-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web Development</button>
+        <button class="filter-btn" data-filter="desktop">Desktop Development</button>
+
+        <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+        <button class="filter-btn" data-filter="blockchain">Blockchain</button>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card" data-category="web" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="project-image">
+            <img src="agrowave.png" alt="Agrowave">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://github.com/billal297222/AgroWave" target="_blank" class="project-link">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="project-link">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Agrowave</h3>
+            <p class="project-description">Agrowave connects farmers and buyers via a web platform, providing crop prediction, Rain Prediction, Fertilizer Recommendation, Agricultural Tool Hire, weather updates, and transaction management.</p>
+            <div class="project-tags">
+              <span class="project-tag">HTML/JavaScript</span>
+              <span class="project-tag">PHP</span>
+              <span class="project-tag">ML</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="project-card" data-category="desktop" data-aos="fade-up" data-aos-delay="200">
+          <div class="project-image">
+            <img src="crawler.png" alt="Dungeon Crawler">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://github.com/billal297222/Dungeon-Crowler" target="_blank" class="project-link">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="project-link">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Dungeon Crawler</h3>
+            <p class="project-description">A turn-based, action-packed fantasy game. Players fight enemies, collect loot, and upgrade skills through dungeon exploration.</p>
+            <div class="project-tags">
+              <span class="project-tag">Java</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="project-card" data-category="web" data-aos="fade-up" data-aos-delay="300">
+          <div class="project-image">
+            <img src="disaster.png" alt="Human Disaster Prediction">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://github.com/billal297222/Human-Disester-Predicton" target="_blank" class="project-link">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="project-link">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Human Disaster Prediction</h3>
+            <p class="project-description">Predicts disasters by analyzing user-reported syndromes. Processes data with a model to generate reports.</p>
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">Django</span>
+              <span class="project-tag">ML</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="project-card" data-category="web" data-aos="fade-up" data-aos-delay="400">
+          <div class="project-image">
+            <img src="Todo.png" alt="Todo List">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://github.com/billal297222/Todo-List-" target="_blank" class="project-link">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="project-link">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Todo List</h3>
+            <p class="project-description">Web-based task management app using Django. Allows creating, editing, deleting, and tracking tasks.</p>
+            <div class="project-tags">
+              <span class="project-tag">Django</span>
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">Bootstrap</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="project-card" data-category="" data-aos="fade-up" data-aos-delay="500">
+          <div class="project-image">
+            <img src="Blood.png" alt="Claret Corridor">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://github.com/billal297222/Online-Blood-Bank-Claret-Corridor-" target="_blank" class="project-link">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="project-link">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Claret Corridor(SRS)</h3>
+            <p class="project-description">Online blood donation platform that connects donors and recipients. Manages blood inventories and requests efficiently.</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="resume section">
+    <div class="container">
+      <div class="section-title">
+        <h2>My <span class="text-primary">Career</span></h2>
+        <p>My educational and professional journey</p>
+      </div>
+      <div class="resume-container">
+        <div class="resume-column" data-aos="fade-right">
+          <h3 class="resume-title"><i class="fas fa-graduation-cap"></i> Education</h3>
+          <div class="resume-item">
+            <span class="resume-date">2021-2025 - Present</span>
+            <h4 class="resume-position">BSC in Software Engineering</h4>
+            <p class="resume-company">Noakhali Science and technology University</p>
+            <p class="resume-description">Graduated with honors, focusing on web development, algorithms, and software engineering principles</p>
+          </div>
+          <div class="resume-item">
+            <span class="resume-date">2018 - 2020</span>
+            <h4 class="resume-position">Higher Secondary Certificate (HSC) - Science</h4>
+            <p class="resume-company">Adhyapak Abdul Majid College,Cumilla</p>
+            <p class="resume-description">Completed HSC in the Science group with a strong foundation in math, physics, and computer science, graduating with honors.</p>
+          </div>
+        </div>
+      <!--  <div class="resume-column" data-aos="fade-left">
+          <h3 class="resume-title"><i class="fas fa-briefcase"></i> Experience</h3>
+          <div class="resume-item">
+            <span class="resume-date">2022 - Present</span>
+            <h4 class="resume-position">Senior SOftware Developer</h4>
+            <p class="resume-company">XYZ Company</p>
+            <p class="resume-description">Leading development of web applications, mentoring junior developers, and implementing best practices for scalable solutions.</p>
+          </div>
+          <div class="resume-item">
+            <span class="resume-date">2020 - 2022</span>
+            <h4 class="resume-position">Junior SOftware Developer</h4>
+            <p class="resume-company">ABC Agency</p>
+            <p class="resume-description">Developed responsive websites and web applications for various clients using modern frameworks and technologies.</p>
+          </div>
+
+        </div> -->
+      </div>
+  <!--
+      <div class="resume-download" data-aos="fade-up">
+        <p>Want to know more about my experience and skills?</p>
+        <a href="Billal_CV.pdf" class="btn btn-primary" download>
+          <i class="fas fa-download me-2"></i> Download Full Resume
+        </a>
+      </div>
+    </div>-->
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Contact <span class="text-primary">Me</span></h2>
+        <p>Let's get in touch</p>
+      </div>
+      <div class="contact-container">
+        <div class="contact-info" data-aos="fade-right">
+          <h3 class="contact-title">Get In Touch</h3>
+          <p class="contact-text">Feel free to reach out to me for any questions, project inquiries, or just to say hello. I'm always open to discussing new projects and opportunities.</p>
+          <ul class="contact-list">
+            <li class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-item-content">
+                <h4>Email</h4>
+                <p><a href="mailto:billalmia297222@gmail.com">billalmia297222@gmail.com</a></p>
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-item-content">
+                <h4>Phone</h4>
+                <p><a href="tel:+1234567890">+8801639432655</a></p>
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-item-content">
+                <h4>Location</h4>
+                <p>Cumilla,Bangladesh</p>
+              </div>
+            </li>
+          </ul>
+          <div class="social-links">
+            <a href="https://github.com/billal297222" target="_blank" class="social-link">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/billal-hossain-869b79257/" target="_blank" class="social-link">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://twitter.com/yourusername" target="_blank" class="social-link">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://instagram.com/md_billal655" target="_blank" class="social-link">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+        <div class="contact-form" data-aos="fade-left">
+          <form id="contact-form" action="https://formspree.io/f/mblonzqo" method="POST">
+            <div class="form-group">
+              <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+              <textarea name="message" class="form-control" placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-logo"><span>B</span>illal</div>
+      <p class="footer-text">Thank you for visiting my portfolio. I'm always open to new opportunities and collaborations.</p>
+
+  </footer>
+
+  <!-- Back to Top Button -->
+  <a href="#" class="back-to-top" id="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <!-- AOS Animation Library -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  
+  <!-- Main JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
